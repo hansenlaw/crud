@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	background-color: skyblue;
+	height: 500px;
+	font-family: sans-serif;
+}
+
+.login{
+	margin-top: 20px;
+	background-color: whitesmoke;
+	width: 370px;
+	padding: 20px;
+	height: 380px;
+	margin-left: 40px;
+	border: 3px solid yellow;
+	box-shadow: 0px 0px 5px 5px skyblue;
+	text-align: center;
+}
+
+.login h2{
+	padding: 0 10px 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.login .input-group{
+	position: relative;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.login .input-group input{
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	border: 3px solid;
+	border-color: orangered;
+	border-radius: 10px;
+}
+
+.login .input-group span{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	padding: 0px;
+	text-transform: capitalize;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.login .input-group input:focus ~ span,
+.login .input-group input:valid ~ span{
+	top: -12px;
+	left: 20 px;
+	font-size: 15px;
+	background-color: lightyellow;
+	padding: 2px 4px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.login .input-group input[type="submit"]{
+	background-color: #00C897;
+	font-size: 15px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	width: 50%;
+	transition: 0.5;
+	text-align: center;
+}
+
+.login .input-group i{
+	position: absolute;
+	color: darkgrey;
+	padding: 0px;
+	right: 20px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.login .input-group input[type="submit"]:hover{
+	width: 50%;
+	background-color: #mediumblue;
+	color: #fff;
+}
+
+
+
+.bawah .input-group{
+	padding-top: 20px;
+}
+
+.show{
+	text-align: left;
+	width: 100%;
+}
+
+.bawah .show .input{
+	text-decoration: none;
+	color: black;
+	align-content: left;
+}
+
+.bawah .input-group{
+	margin-right: 0px;
+}
+
+.salah{
+	color: red;
+	text-align: center;
+}

@@ -1,0 +1,150 @@
+body{
+	margin: 10px 10px 10px 10px;
+	font-family: arial, sans-serif;
+	background-image: url(hip-square.png);
+}
+
+.semua{
+	text-align: left;
+	text-decoration: none;
+	color: blue;
+	height: 30px;
+	line-height: 30px;
+}
+
+.semua a{
+	text-decoration: none;
+	color: blue;
+	padding-left: 6px;
+}
+
+.atas{
+	width: 35%;
+	margin: auto;
+}
+
+.hal{
+	padding-left: 460px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: blue;	
+}
+
+.hal a{
+	float: left;
+	color: black;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	background-color: yellow;
+	text-decoration: none;
+	width: 20px;
+	height: 20px;
+}
+
+h1{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.tambah{
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.tambah a:link, a:visited {
+  background-color: #D702FB;;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tambah a:hover, a:active {
+  background-color: #DF89F5;
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+table th, td {
+	border: 1px solid black;
+  	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(odd){background-color: #EDAFF8;}
+tr:hover {background-color: #DA00FF;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #D702FB;
+  color: white;
+}
+
+form input{
+	padding: 5px 15px;
+	font-size: 16px;
+}
+
+form button{
+	color: white;
+	background-color: red;
+	padding: 7px 15px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.edit{
+	background-color: #46EF5B;
+	color: black;
+	padding: 5px 5px;
+}
+
+.delete{
+	background-color: #EC1818;
+	color: whitesmoke;
+	padding: 5px 5px;
+}
+
+.head {
+	margin-top: 30px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.logout {
+	text-decoration: none;
+	background-color: #EC1818;
+	color: whitesmoke;
+	padding: 15px 15px;
+}
+
+.error{
+	text-align: center;
+	color: red;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
